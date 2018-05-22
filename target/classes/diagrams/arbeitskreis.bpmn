@@ -4,7 +4,7 @@
     <startEvent id="startevent1" name="Start"></startEvent>
     <serviceTask id="mailtask1" name="Einladung wird versendet" activiti:type="mail"></serviceTask>
     <sequenceFlow id="flow1" sourceRef="startevent1" targetRef="mailtask1"></sequenceFlow>
-    <receiveTask id="receivetask1" name="Bestätigung/Absage wird erhalten"></receiveTask>
+    <receiveTask id="receivetask1" name="Bestänfwkjhftigung/Absage wird erhalten"></receiveTask>
     <sequenceFlow id="flow2" sourceRef="mailtask1" targetRef="receivetask1"></sequenceFlow>
     <userTask id="usertask1" name="Arbeitskreis wird durchgeführt"></userTask>
     <sequenceFlow id="flow3" sourceRef="receivetask1" targetRef="usertask1"></sequenceFlow>
